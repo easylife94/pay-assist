@@ -19,5 +19,16 @@
 
     <modules>
         <module>pay-assist-web</module>
+        <module>pay-assist-client</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.pay</groupId>
+                <artifactId>pay-assist-client</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>

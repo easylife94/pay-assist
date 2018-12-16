@@ -9,9 +9,8 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.pay</groupId>
     <artifactId>pay-assist-web</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+
     <name>pay-assist-web</name>
     <description>Demo project for Spring Boot</description>
 
@@ -37,6 +36,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.pay</groupId>
+            <artifactId>pay-assist-client</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
